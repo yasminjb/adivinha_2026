@@ -78,15 +78,15 @@
             //   algum numero na caixa de texto
             //---------------------------------
             let caixaDeTexto = document.getElementById('TXTPalpite');
+            let dvMensagem = document.getElementById('TXTPalpite');
+            
             let chuteDoJogador = parseInt(caixaDeTexto.value);
-
+            
         
             if( isNaN(chuteDoJogador) ){
-                console.log('Número Inválido!!');
+                dvMensagem.textContent = ('Número Inválido!!');
             }else{
-                console.log('Número Válido: '+chuteDoJogador);
-
-
+                dvMensagem.textContent = ('Número Válido: '+chuteDoJogador);
             }
 
           
