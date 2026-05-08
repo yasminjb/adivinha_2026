@@ -82,13 +82,10 @@
             
             let chuteDoJogador = parseInt(caixaDeTexto.value);
             
-        
+            //Validação fo número digitado. O campo não pode ser vazio e o número deve estar 0 e 100
             if( isNaN(chuteDoJogador) ){
-                dvMensagem.textContent = 'Número Inválido!!';
-            }else{
-                dvMensagem.textContent = 'Número Válido: '+chuteDoJogador;
-            }
-
+                dvMensagem.textContent = 'Porfavor, insira um número válido entre 0 e 100';
+            
           
          }
 
