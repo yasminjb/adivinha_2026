@@ -90,6 +90,9 @@
             
           }
 
+          console.log(qtdTentativas);
+          qtdTentativas--;
+
             if(chuteDoJogador === numeroSecreto){
                 dvMensagem.textContent = 'Parabéns! Você acertou o número secreto '+numeroSecreto;
                 desabilitarJogo();
