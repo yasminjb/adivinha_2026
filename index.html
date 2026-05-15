@@ -92,6 +92,7 @@
 
             if(chuteDoJogador === numeroSecreto){
                 dvMensagem.textContente = 'Parabéns! Você acertou o número secreto' +numeroSecreto;
+                desabilitarJogo();
             }else{
                 dvMensagem.textContent = 'Errou!';
             }
